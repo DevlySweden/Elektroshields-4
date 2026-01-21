@@ -5,6 +5,7 @@
 - Only JavaScript (no TypeScript).
 - React + Vite project.
 - Use plain CSS (no Tailwind). No extra libs.
+- Always delete default Vite/React assets (`public/vite.svg`, `src/assets/react.svg`).
 - Keep components reusable and content-driven (no company text hardcoded in components).
 - All visible website content must be written in Swedish when CONFIG.language.content is "sv-SE".
 - Must be responsive (mobile-first) and accessible.
@@ -534,6 +535,20 @@ Use the exact arrow button shape, size, border, background, and SVG below so the
 src/
 - App.jsx
 - main.jsx
+- assets/
+  - brand/
+    - logo.png
+    - hero.jpg
+  - areas/
+    - private.jpg
+    - commercial.jpg
+    - archipelago.jpg
+  - gallery/
+    - 01.jpg
+    - 02.jpg
+    - 03.jpg
+    - 04.jpg
+    - 05.jpg
 
 src/content/
 - site.js
