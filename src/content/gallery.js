@@ -17,23 +17,23 @@ export const gallery = {
   },
   images: [
     {
-      src: '/src/assets/gallery/01.jpg',
+      src: '/assets/gallery/01.jpg',
       alt: 'Elinstallation i pågående projekt',
     },
     {
-      src: '/src/assets/gallery/02.jpg',
+      src: '/assets/gallery/02.jpg',
       alt: 'Belysning i trapphus',
     },
     {
-      src: '/src/assets/gallery/03.jpg',
+      src: '/assets/gallery/03.jpg',
       alt: 'Styrsystem och teknik',
     },
     {
-      src: '/src/assets/gallery/04.jpg',
+      src: '/assets/gallery/04.jpg',
       alt: 'Belysningslösning i bostad',
     },
     {
-      src: '/src/assets/gallery/05.jpg',
+      src: '/assets/gallery/05.jpg',
       alt: 'Installation i specialmiljö',
     },
   ],

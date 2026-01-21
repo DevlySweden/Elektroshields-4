@@ -6,6 +6,7 @@
 - React + Vite project.
 - Use plain CSS (no Tailwind). No extra libs.
 - Always delete default Vite/React assets (`public/vite.svg`, `src/assets/react.svg`).
+- All site images must live in `public/assets/...` so they are served directly by Netlify/Vite.
 - Keep components reusable and content-driven (no company text hardcoded in components).
 - All visible website content must be written in Swedish when CONFIG.language.content is "sv-SE".
 - Must be responsive (mobile-first) and accessible.
@@ -40,7 +41,7 @@ contact:
 
 branding:
   accentColor: "#1f2933"
-  logoPath: "/src/assets/brand/logo.png"
+  logoPath: "/assets/brand/logo.png"
   fontFamily: "system" # allowed: system
 
 layout:
@@ -84,7 +85,7 @@ motion:
   staggerMs: 90
 
 hero:
-  imagePath: "/src/assets/brand/hero.jpg"
+  imagePath: "/assets/brand/hero.jpg"
   badge: "Elinstallation • Ljusdesign • Styrsystem • Projektering"
   headline: "Elinstallationer av högsta kvalitet."
   subtext: "För privatpersoner och företag i Stockholm med kranskommuner och Stockholms skärgård."
@@ -125,15 +126,15 @@ projects:
     - title: "Privatbostäder"
       meta: "Elinstallation • Belysning"
       desc: "Elinstallationer och belysningslösningar för villor, lägenheter och fritidshus."
-      imagePath: "/src/assets/areas/private.jpg"
+      imagePath: "/assets/areas/private.jpg"
     - title: "Företag & kommersiella lokaler"
       meta: "Projektering • Styrsystem"
       desc: "Tekniska el- och styrsystem anpassade för kontor, butiker och verksamhetslokaler."
-      imagePath: "/src/assets/areas/commercial.jpg"
+      imagePath: "/assets/areas/commercial.jpg"
     - title: "Skärgård & specialmiljöer"
       meta: "Installation • Driftssäkerhet"
       desc: "Elinstallationer i krävande miljöer med fokus på driftsäkerhet och hållbarhet."
-      imagePath: "/src/assets/areas/archipelago.jpg"
+      imagePath: "/assets/areas/archipelago.jpg"
 
 # NEW: iPhone/portrait image scroll section
 gallery:
@@ -164,15 +165,15 @@ gallery:
     snapDesktop: "none"
 
   images:
-    - src: "/src/assets/gallery/01.jpg"
+    - src: "/assets/gallery/01.jpg"
       alt: "Elinstallation i pågående projekt"
-    - src: "/src/assets/gallery/02.jpg"
+    - src: "/assets/gallery/02.jpg"
       alt: "Belysning i trapphus"
-    - src: "/src/assets/gallery/03.jpg"
+    - src: "/assets/gallery/03.jpg"
       alt: "Styrsystem och teknik"
-    - src: "/src/assets/gallery/04.jpg"
+    - src: "/assets/gallery/04.jpg"
       alt: "Belysningslösning i bostad"
-    - src: "/src/assets/gallery/05.jpg"
+    - src: "/assets/gallery/05.jpg"
       alt: "Installation i specialmiljö"
 
 contactSection:
@@ -535,6 +536,8 @@ Use the exact arrow button shape, size, border, background, and SVG below so the
 src/
 - App.jsx
 - main.jsx
+ 
+public/
 - assets/
   - brand/
     - logo.png

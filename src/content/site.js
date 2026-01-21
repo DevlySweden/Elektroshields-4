@@ -17,7 +17,7 @@ export const site = {
   },
   branding: {
     accentColor: '#1f2933',
-    logoPath: '/src/assets/brand/logo.png',
+    logoPath: '/assets/brand/logo.png',
     fontFamily: 'system',
   },
   layout: {
@@ -52,7 +52,7 @@ export const site = {
     staggerMs: 90,
   },
   hero: {
-    imagePath: '/src/assets/brand/hero.jpg',
+    imagePath: '/assets/brand/hero.jpg',
     badge: 'Elinstallation › Ljusdesign › Styrsystem › Projektering',
     headline: 'Elinstallationer av högsta kvalitet.',
     subtext:

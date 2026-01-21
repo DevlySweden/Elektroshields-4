@@ -15,21 +15,21 @@ export const projects = {
       meta: 'Elinstallation › Belysning',
       desc:
         'Elinstallationer och belysningslösningar för villor, lägenheter och fritidshus.',
-      imagePath: '/src/assets/areas/private.jpg',
+      imagePath: '/assets/areas/private.jpg',
     },
     {
       title: 'Företag & kommersiella lokaler',
       meta: 'Projektering › Styrsystem',
       desc:
         'Tekniska el- och styrsystem anpassade för kontor, butiker och verksamhetslokaler.',
-      imagePath: '/src/assets/areas/commercial.jpg',
+      imagePath: '/assets/areas/commercial.jpg',
     },
     {
       title: 'Skärgård & specialmiljöer',
       meta: 'Installation › Driftsäkerhet',
       desc:
         'Elinstallationer i krävande miljöer med fokus på driftsäkerhet och hållbarhet.',
-      imagePath: '/src/assets/areas/archipelago.jpg',
+      imagePath: '/assets/areas/archipelago.jpg',
     },
   ],
 }
